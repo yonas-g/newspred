@@ -10,9 +10,9 @@ import json
 from urllib.request import Request, urlopen
 import urllib.error
 
-reddit = praw.Reddit(client_id='Bb9leu_CyhDY2w',
-                     client_secret='meX0awmURb8umr4OMsVjPrhmXGg',
-                     user_agent='gniorg')
+reddit = praw.Reddit(client_id='//',
+                     client_secret='//',
+                     user_agent='//')
 
 headlines = set()
 now = time.time()
